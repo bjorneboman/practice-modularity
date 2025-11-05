@@ -32,3 +32,7 @@ h1::before {
     content: "";
     z-index: -1;
 }
+
+main {
+    margin-inline: 4rem;
+}
