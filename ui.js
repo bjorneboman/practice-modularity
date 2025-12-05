@@ -6,7 +6,7 @@ export const IOElements = {
 };
 
 export function displayResult(content) {
-  const display = document.querySelector("#result-display");
+  const display = IOElements.resultDisplay
   display.textContent = content
 }
 
